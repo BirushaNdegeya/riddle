@@ -107,7 +107,7 @@ showRiddle.addEventListener('click', () => {
     const container = document.querySelector('#riddle-content');
 
     const answerElem = document.createElement('p');
-    answerElem.textContent = 'The answer is ' + answer;
+    answerElem.textContent = answer;
     answerElem.setAttribute('id', 'riddle-answer');
     answerElem.hidden = true;
 
